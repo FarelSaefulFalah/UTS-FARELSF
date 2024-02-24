@@ -1,0 +1,25 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .form-control {
+    background-color: #007413;
+    opacity: 50%;
+    border: none;
+    border-radius: 0;
+    color: #ddd;
+    padding: 6px 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .form-control:focus {
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.5);
+  }
+  .placeholder{
+    color: #ddd;
+    opacity: 100%;
+  }
